@@ -11,7 +11,9 @@ def multiply(x, y):
     return x*y
 
 def divide(x, y):
-    pass  # To be implemented
+    if y == 0:
+        return "Error: Cannot divide by zero"
+    return x / y
 
 if __name__ == "__main__":
     print("Calculator started.")
