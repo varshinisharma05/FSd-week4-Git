@@ -1,0 +1,1 @@
+Handling merging conflicts in branch Y by user2
